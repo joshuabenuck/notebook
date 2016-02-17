@@ -1,0 +1,24 @@
+float max_distance;
+
+void setup() {
+  size(800, 800); 
+  smooth();
+  noStroke();
+  max_distance = dist(0, 0, width, height);
+}
+
+void draw() 
+{
+  background(255);
+  fill(255, 255, 255);
+  stroke(0, 0, 0);
+  ellipse(width/2, height/2, 750, 750);
+  ellipse(width/2, height/2, 650, 650);
+  ellipse(width/2, height/2, 550, 550);
+  ellipse(width/2, height/2, 450, 450);
+  ellipse(width/2, height/2, 350, 350);
+  ellipse(width/2, height/2, 250, 250);
+  ellipse(width/2, height/2, 150, 150);
+  fill(255, 0, 0);
+  ellipse(width/2, height/2, 50, 50);
+}
